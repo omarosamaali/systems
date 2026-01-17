@@ -491,6 +491,10 @@
                                     </a>
                                 </li>
                             </ul>
+                            <div style="color: black;" class="!pb-[30px] font-bold menu credits brackets">
+                                    {{ __('messages.AllRightsReserved') }}
+                                    {{ __('messages.evorq') }}
+                                </div>
                         </nav>
                     </div>
                 </div>
@@ -510,21 +514,27 @@
         <img class="footer-img" src="http://localhost/evorq/core/public/images/footer.png" alt="">
     </main>
 
-    <footer id="footer">
+<footer id="footer">
         <div>
-            <i class="fa-brands fa-facebook"></i>
+            <a href="https://www.facebook.com/profile.php?id=61586542407035">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
         </div>
         <div>
-            <i class="fa-brands fa-twitter"></i>
+            <a
+                href="https://x.com/EVORQ_Tech?fbclid=IwY2xjawPYfB5leHRuA2FlbQIxMABicmlkETE0UTlHUEZ3WkhQWlZ6MzRmc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHijeE5ruqAiRX-wmtB7l7zS5i_6cGm57CFX33H8aEwct-zk_MPB53rj76kTl_aem_yo4ML8XTljV3qHXbIuKf3w">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
         </div>
         <div>
-            <i class="fa-brands fa-instagram"></i>
+            <a href="https://www.instagram.com/evorq_tech/">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
         </div>
         <div>
             <i class="fa-brands fa-linkedin"></i>
         </div>
     </footer>
-
     <script src="{{ asset('js/plugins.js') }}" type="text/javascript"></script>
     <script src="{{ asset('js/hombre.js') }}" type="text/javascript"></script>
     <script>

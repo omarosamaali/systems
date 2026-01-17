@@ -209,7 +209,7 @@
         }
 
         #main-menu ul li {
-            padding-top:5px !important;
+            padding-top: 5px !important;
             color: rgb(0, 0, 0);
         }
 
@@ -406,7 +406,8 @@
 </body>
 
 <body>
-    <div class="container-top">
+
+    <div style="direction: ltr;" class="container-top">
         <div class="">
             <div class="lang-dropdown">
                 <button class="lang-btn" id="langBtn">
@@ -429,7 +430,6 @@
             </div>
         </div>
 
-
         <div class="desktop--logo">
             <a target="_blan" class="pr-2 link-outer" href="https://evorq.online/">{{ __('messages.systems') }} <i
                     class="fa-solid fa-laptop-code"></i></a>
@@ -442,8 +442,8 @@
                 src="{{ asset('assets/images/width-logo.png') }}" alt="">
             <img width="30px" class="mobile--menu" src="{{ asset('assets/images/mobile-logo.png') }}" alt="">
         </div>
-
     </div>
+
     <div>
         {{-- <img class="mx-auto w-32 mt-20 pt-14" src="{{ asset('assets/images/white-logo.png') }}" alt="">
         <h3 class="text-white text-4xl font-bold pt-5">{{ __('messages.star_experts') }}</h3> --}}
@@ -463,7 +463,8 @@
                         <nav class="menu-nav" style="top: -55px; position: relative;">
                             <ul>
                                 <li>
-                                    <img class="w-32 mt-10" src="{{ asset('assets/images/black-logo.png') }}" alt="">
+                                    <img class="w-32 mt-10 ml-0 mr-auto"
+                                        src="{{ asset('assets/images/black-logo.png') }}" alt="">
                                 </li>
                                 <li class="">
                                     <a style="font-size: 30px; color: black !important; font-weight: 600;"
@@ -534,13 +535,20 @@
 
     <footer id="footer">
         <div>
-            <i class="fa-brands fa-facebook"></i>
+            <a href="https://www.facebook.com/profile.php?id=61586542407035">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
         </div>
         <div>
-            <i class="fa-brands fa-twitter"></i>
+            <a
+                href="https://x.com/EVORQ_Tech?fbclid=IwY2xjawPYfB5leHRuA2FlbQIxMABicmlkETE0UTlHUEZ3WkhQWlZ6MzRmc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHijeE5ruqAiRX-wmtB7l7zS5i_6cGm57CFX33H8aEwct-zk_MPB53rj76kTl_aem_yo4ML8XTljV3qHXbIuKf3w">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
         </div>
         <div>
-            <i class="fa-brands fa-instagram"></i>
+            <a href="https://www.instagram.com/evorq_tech/">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
         </div>
         <div>
             <i class="fa-brands fa-linkedin"></i>
