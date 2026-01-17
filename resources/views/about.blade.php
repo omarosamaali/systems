@@ -45,33 +45,33 @@
         {{ __('messages.team_title') }}
     </h2>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10"
+    <div style="direction: rtl; z-index: 9999999999999999; position: relative;" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10"
         style="direction: {{ app()->getLocale() == 'ar' ? 'rtl' : 'ltr' }};">
         <div class="team-member">
-            <img src="{{ asset('assets/images/mobile-logo.png') }}"
+            <img src="{{ asset('assets/images/tareq.png') }}"
                 class="p-2 w-36 h-36 md:w-48 md:h-48 mx-auto rounded-full object-cover shadow-lg border-2 border-white hover:scale-105 transition-transform">
             <h3 class="capitalize mt-5 text-xl font-normal text-white">{{ __('messages.tareq') }}</h3>
             <p class="text-gray-200 mt-1">{{ __('messages.ceo') }}</p>
         </div>
 
         <div class="team-member">
-            <img src="{{ asset('assets/images/mobile-logo.png') }}"
+            <img src="{{ asset('assets/images/omar.png') }}"
                 class="p-2 w-36 h-36 md:w-48 md:h-48 mx-auto rounded-full object-cover shadow-lg border-2 border-white hover:scale-105 transition-transform">
-            <h3 class="capitalize mt-5 text-xl font-normal text-white">عمر أسامة</h3>
+            <h3 class="capitalize mt-5 text-xl font-normal text-white">{{ __('messages.omar') }}</h3>
             <p class="text-gray-200 mt-1">{{ __('messages.tech_lead') }}</p>
         </div>
 
         <div class="team-member">
             <img src="{{ asset('assets/images/mobile-logo.png') }}"
                 class="p-2 w-36 h-36 md:w-48 md:h-48 mx-auto rounded-full object-cover shadow-lg border-2 border-white hover:scale-105 transition-transform">
-            <h3 class="capitalize mt-5 text-xl font-normal text-white">عبدالله محمد</h3>
+            <h3 class="capitalize mt-5 text-xl font-normal text-white">{{ __('messages.abdallah') }}</h3>
             <p class="text-gray-200 mt-1">{{ __('messages.sys_dev') }}</p>
         </div>
 
         <div class="team-member">
             <img src="{{ asset('assets/images/mobile-logo.png') }}"
                 class="p-2 w-36 h-36 md:w-48 md:h-48 mx-auto rounded-full object-cover shadow-lg border-2 border-white hover:scale-105 transition-transform">
-            <h3 class="capitalize mt-5 text-xl font-normal text-white">مؤمن حامد</h3>
+            <h3 class="capitalize mt-5 text-xl font-normal text-white">{{ __('messages.moamen') }}</h3>
             <p class="text-gray-200 mt-1">{{ __('messages.sys_dev') }}</p>
         </div>
     </div>
