@@ -429,7 +429,7 @@
     </div>
     <div>
         <img class="mx-auto w-32 mt-20 pt-14" src="{{ asset('assets/images/white-logo.png') }}" alt="">
-        <h3 class="text-white text-4xl font-bold pt-5">{{ __('messages.star_experts') }}</h3>
+        <h3 class="text-white text-4xl font-bold pt-[100px]">{{ __('messages.star_experts') }}</h3>
     </div>
     <div id="ui-layer">
         <!-- ui layer inner start -->

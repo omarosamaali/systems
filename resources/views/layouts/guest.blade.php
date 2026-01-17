@@ -554,7 +554,7 @@
             <i class="fa-brands fa-linkedin"></i>
         </div>
     </footer>
-    <img class="footer-img-top" src="{{ asset(path: 'assets/images/arab.png') }}" alt="">
+    <img class="footer-img-top" src="{{ asset(path: 'assets/images/arab.png') }}" style="padding-top: 50px;" alt="">
     <img class="footer-img-top mobile-footer" src="{{ asset(path: 'assets/images/footer.png') }}" alt="">
     <script src="{{ asset('js/plugins.js') }}" type="text/javascript"></script>
     <script src="{{ asset('js/hombre.js') }}" type="text/javascript"></script>
