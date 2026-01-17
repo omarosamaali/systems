@@ -597,6 +597,7 @@
                 <div class="w-full md:w-2/3 bg-gray-900 p-8 rounded-2xl border border-gray-800 shadow-2xl">
                     <form action="{{ route('contact.send') }}"
                         method="POST"
+                        style="position: relative; z-index: 99999999999999999999;"
                         class="space-y-5 text-right">
                         @csrf <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div>
