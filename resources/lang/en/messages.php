@@ -36,5 +36,10 @@ return [
     'ceo' => 'Chief Executive Officer (CEO)',
     'tech_lead' => 'Technical Expert & Tech Lead',
     'sys_dev' => 'Technical Expert & Systems Developer',
-    
+
+
+    'tareq' => 'Tareq Mohamed Bin Kalban',
+    'omar' => 'Omar Osama',
+    'abdallah' => 'Abdallah Mohamed',
+    'moamen' => 'Moamen Hamad',
 ];

@@ -202,7 +202,7 @@
         }
 
         #main-menu ul li {
-            padding-top: 8px;
+            padding-top: 8px !important;
             color: rgb(0, 0, 0);
         }
 
@@ -443,7 +443,7 @@
                 <!-- navigation start -->
                 <div id="main-menu">
                     <div class="menu-nav-wrapper">
-                        <nav class="menu-nav">
+                        <nav class="menu-nav" style="top: -55px; position: relative;">
                             <ul>
                                 <li>
                                     <img class="w-32 mt-20 pt-14" src="{{ asset('assets/images/black-logo.png') }}" alt="">
@@ -510,8 +510,8 @@
 
     <main id="main" style="z-index: -1; background-color: transparent !important;">
         @yield('content')
-        <img class="footer-img-top" src="http://localhost/evorq/core/public/images/arab.png" alt="">
-        <img class="footer-img" src="http://localhost/evorq/core/public/images/footer.png" alt="">
+        <img class="footer-img-top" src="{{ asset(path: 'assets/images/arab.png') }}" alt="">
+        <img class="footer-img" src="{{ asset(path: 'assets/images/footer.png') }}" alt="">
     </main>
 
 <footer id="footer">
@@ -523,7 +523,7 @@
         <div>
             <a
                 href="https://x.com/EVORQ_Tech?fbclid=IwY2xjawPYfB5leHRuA2FlbQIxMABicmlkETE0UTlHUEZ3WkhQWlZ6MzRmc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHijeE5ruqAiRX-wmtB7l7zS5i_6cGm57CFX33H8aEwct-zk_MPB53rj76kTl_aem_yo4ML8XTljV3qHXbIuKf3w">
-                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-x"></i>
             </a>
         </div>
         <div>

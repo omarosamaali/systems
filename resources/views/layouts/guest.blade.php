@@ -542,7 +542,7 @@
         <div>
             <a
                 href="https://x.com/EVORQ_Tech?fbclid=IwY2xjawPYfB5leHRuA2FlbQIxMABicmlkETE0UTlHUEZ3WkhQWlZ6MzRmc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHijeE5ruqAiRX-wmtB7l7zS5i_6cGm57CFX33H8aEwct-zk_MPB53rj76kTl_aem_yo4ML8XTljV3qHXbIuKf3w">
-                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-x"></i>
             </a>
         </div>
         <div>
@@ -554,8 +554,8 @@
             <i class="fa-brands fa-linkedin"></i>
         </div>
     </footer>
-    <img class="footer-img-top" src="http://localhost/evorq/core/public/images/arab.png" alt="">
-    <img class="footer-img-top mobile-footer" src="http://localhost/evorq/core/public/images/footer.png" alt="">
+    <img class="footer-img-top" src="{{ asset(path: 'assets/images/arab.png') }}" alt="">
+    <img class="footer-img-top mobile-footer" src="{{ asset(path: 'assets/images/footer.png') }}" alt="">
     <script src="{{ asset('js/plugins.js') }}" type="text/javascript"></script>
     <script src="{{ asset('js/hombre.js') }}" type="text/javascript"></script>
     <script>
