@@ -560,7 +560,7 @@
                 <div class="text-right">
                     <h1 class="text-3xl font-bold">ايفورك للتكنولوجيا</h1>
                     <p class="text-xl text-gray-400">الامارات العربية المتحدة, دبي</p>
-                    <p class="text-xl text-gray-400">منقطة الورقاء2</p>
+                    <p class="text-xl text-gray-400">منطقة الورقاء2</p>
                 </div>
                 <div>
                     <img class="w-32" src="{{ asset('assets/images/white-logo.png') }}" alt="EVORQ">
