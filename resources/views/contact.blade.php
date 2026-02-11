@@ -380,7 +380,6 @@
 <body style="overflow: hidden; z-index: 88888888;">
     <div id="stars"></div>
     <div id="stars2"></div>
-    {{-- <div id="stars3"></div> --}}
     <script>
         // Generate box-shadow for stars
       function generateStars(count) {

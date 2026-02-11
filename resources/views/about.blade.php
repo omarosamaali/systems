@@ -62,7 +62,7 @@
         </div>
 
         <div class="team-member">
-            <img src="{{ asset('assets/images/mobile-logo.png') }}"
+            <img src="{{ asset('assets/images/abdalla.png') }}"
                 class="p-2 w-36 h-36 md:w-48 md:h-48 mx-auto rounded-full object-cover shadow-lg border-2 border-white hover:scale-105 transition-transform">
             <h3 class="capitalize mt-5 text-xl font-normal text-white">{{ __('messages.abdallah') }}</h3>
             <p class="text-gray-200 mt-1">{{ __('messages.sys_dev') }}</p>
